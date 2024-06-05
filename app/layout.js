@@ -14,17 +14,27 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
+        <title>Soufiane MASAD | A Blockchain and Web 3.0 Developer</title>
         <meta
-          name="twitter:title"
-          content="Soufiane MASAD | Blockchain and Web 3.0 Developer"
+          name="description"
+          content="I'm Soufiane MASAD, a dedicated Blockchain Developer on a mission to shape the future of businesses through blockchain and web3.0 technology. My passion lies in seamlessly integrating innovative Blockchain and Web3 solutions, transforming businesses and brands into pioneers of the digital frontier."
         />
         <meta
-          name="twitter:description"
-          content="Soufiane MASAD | Blockchain and Web 3.0 Developer"
+          name="keywords"
+          content="blockchain, web 3.0, smart contract, defi, nft, rwa, token, ethereum, evm, solidity, hyperledger, chainlink"
+        />
+        {/* OPENA GRAPH METADATA: Metadata to be displayed when the link is shared across social media platforms */}
+        <meta
+          property="og:title"
+          content="Soufiane MASAD | A Blockchain and Web 3.0 Developer"
         />
         <meta
-          name="twitter:image"
-          content="https://drive.google.com/file/d/1G8494JZa2prrrDnJv5e5LRh4OhFKM_5C/view?usp=sharing"
+          property="og:description"
+          content="I'm Soufiane MASAD, a dedicated Blockchain Developer on a mission to shape the future of businesses through blockchain and web3.0 technology. My passion lies in seamlessly integrating innovative Blockchain and Web3 solutions, transforming businesses and brands into pioneers of the digital frontier."
+        />
+        <meta
+          property="og:image"
+          content="https://ipfs.io/ipfs/QmPkTbmQmX1RqdPjR9h68ArZryWunFuGdrGJwon8gLnY5D"
         />
       </Head>
       <body className={font.className}>
