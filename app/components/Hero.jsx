@@ -15,21 +15,19 @@ export default function Hero() {
               <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm ">
                 Hello👋, I am Soufiane MASAD
               </div>
-              <h1 className="text-2xl font-extrabold text-gray-100 tracking-tighter sm:text-4xl xl:text-4xl/none">
-                Founder{" "}
-                <Link
-                  href="https://www.oklever.com"
-                  target="_blank"
-                  className="underline text-[#cfef00] font-extrabold "
-                >
-                  @Oklever
-                </Link>{" "}
-                <br></br>& Blockchain Developer
+              <h1 className="text-4xl font-extrabold text-gray-100 tracking-tighter sm:text-4xl xl:text-5xl/none">
+                <span className=" text-[#cfef00] font-extrabold ">
+                  Blockchain
+                </span>{" "}
+                &{" "}
+                <span className=" text-[#cfef00] font-extrabold ">
+                  Smart Contracts
+                </span>{" "}
+                Developer
               </h1>
               <p className="max-w-[600px] text-gray-400 md:text-xl dark:text-gray-400">
-                I help Businesses integrate the decentralized world through
-                innovative Blockchain solutions.<br></br> Let's build the future
-                together! 🌐
+                I build decentralized digital solutions by leveraging Blockchain
+                technology.Let's build the future together! 🌐
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row ">
