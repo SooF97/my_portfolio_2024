@@ -168,6 +168,33 @@ const page = () => {
               </p>
             </div>
           </div>
+          <div className="flex h-full hover:scale-105 hover:transition-all hover:duration-300 flex-col justify-between rounded-lg border border-gray-200 hover:bg-[#cfef00] bg-gray-200 p-6 shadow-sm transition-colors hover:border-gray-300  ">
+            <div className="space-y-4">
+              <Image
+                src="/rewartist.png"
+                alt="AI web3 blockchain marketplace"
+                width={400}
+                height={400}
+                className="rounded-lg"
+              />
+              <h3 className="text-xl font-semibold flex flex-row gap-2 items-center">
+                Blockchain & AI application{" "}
+                <Link
+                  href="https://github.com/SooF97/R3WARTIST"
+                  target="_blank"
+                >
+                  <FaGithub className="text-gray-950 w-5 h-5" />
+                </Link>
+                <Link href="https://r3-wartist.vercel.app/" target="_blank">
+                  <TbWorld className="text-gray-950 w-5 h-5" />
+                </Link>
+              </h3>
+              <p className="text-gray-600 ">
+                A Blockchain-based Application aiming to fairly reward talented
+                ai-gen image Artists
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <section className="w-full py-8 md:py-16 md:px-12">
