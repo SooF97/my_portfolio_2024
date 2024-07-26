@@ -28,10 +28,10 @@ export default function Services() {
           <div className="flex h-full flex-col justify-between rounded-lg border hover:bg-[#cfef00] border-gray-200 bg-white p-6 shadow-sm transition-colors hover:border-gray-300  ">
             <div className="space-y-4">
               <PieChartIcon className="h-10 w-10 text-gray-400 " />
-              <h3 className="text-lg font-semibold">Blockchain Strategy</h3>
+              <h3 className="text-lg font-semibold">Tokenization</h3>
               <p className="text-gray-600">
-                Define a customized blockchain strategy to integrate into your
-                business.
+                Define and develop a customized token to implement into your
+                business. From digital tokenization to RWA Tokenization.
               </p>
             </div>
           </div>
@@ -41,22 +41,11 @@ export default function Services() {
               <h3 className="text-lg font-semibold">Blockchain Consulting</h3>
               <p className="text-gray-600 ">
                 Get strategic guidance and advice to help your business achieve
-                its goals through blockchain.
+                its goals through blockchain solutions.
               </p>
             </div>
           </div>
-          <div className="flex h-full flex-col justify-between rounded-lg border hover:bg-[#cfef00] border-gray-200 bg-white p-6 shadow-sm transition-colors hover:border-gray-300 ">
-            <div className="space-y-4">
-              <BriefcaseIcon className="h-10 w-10 text-gray-400 " />
-              <h3 className="text-lg font-semibold">
-                Blockchain Implementation
-              </h3>
-              <p className="text-gray-600 ">
-                Seamlessly integrate blockchain-based solutions into your
-                business.
-              </p>
-            </div>
-          </div>
+
           <div className="flex h-full flex-col justify-between rounded-lg border hover:bg-[#cfef00] border-gray-200 bg-white p-6 shadow-sm transition-colors hover:border-gray-300 ">
             <div className="space-y-4">
               <LifeBuoyIcon className="h-10 w-10 text-gray-400 " />
@@ -64,26 +53,8 @@ export default function Services() {
                 Smart Contracts Development
               </h3>
               <p className="text-gray-600">
-                Implementing custom smart contracts which to enhance you
-                business processes.
-              </p>
-            </div>
-          </div>
-          <div className="flex h-full flex-col justify-between rounded-lg border hover:bg-[#cfef00] border-gray-200 bg-white p-6 shadow-sm transition-colors hover:border-gray-300 ">
-            <div className="space-y-4">
-              <RocketIcon className="h-10 w-10 text-gray-400" />
-              <h3 className="text-lg font-semibold">NFT Development</h3>
-              <p className="text-gray-600">
-                Unlock new revenue streams through NFT solutions.
-              </p>
-            </div>
-          </div>
-          <div className="flex h-full flex-col justify-between rounded-lg hover:bg-[#cfef00] border border-gray-200 bg-white p-6 shadow-sm transition-colors hover:border-gray-300 ">
-            <div className="space-y-4">
-              <BoltIcon className="h-10 w-10 text-gray-400" />
-              <h3 className="text-lg font-semibold">Web 3.0 Development</h3>
-              <p className="text-gray-600">
-                Crafting distributed solutions leveraging blockchain technology.
+                Create custom smart contracts to enhance your business
+                processes.
               </p>
             </div>
           </div>
